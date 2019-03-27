@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Web Design - COMP-1850-0 Final Project - By Amin Momenbeitollahi</title>
+	
+	<!-- Bootstrap -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	<!-- Icons -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<!-- My CSS -->
+	<link rel="stylesheet" href="css/styles.css">
+    <!-- Social Media -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/final.js"></script>
+    
+</head>
+<body class="home">
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="3">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="images/amin.jpg" alt="Amin">
+			<span class="title">Amin MomenBeitollahi</span>
+			<span class="tagline">A mystery person<br>
+				<a href="mailto:amomenbeitollahi@learn.bcit.ca">amomenbeitollahi@learn.bcit.ca</a></span>
+		</h1>
+	</div>
+
+	
+	<nav class="navbar navbar-default navbar-sticky">
+		<div class="container-fluid">
+			
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			</div>
+			
+			<div class="navbar-collapse collapse">
+				
+				<ul class="nav navbar-nav">
+					
+					<li><a href="index.html">Home</a></li>
+					<li><a href="design.html">WEBSITE DESIGN</a></li>
+                    <li><a href="joomla.html">JOOMLA</a></li>
+                    <li><a href="app.html">APPLICATION DESIGN</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+				
+				</ul>
+			
+			</div>			
+		</div>	
+	</nav>
+    
+</header>
+<main id="main">
+
+	<div class="container">
+
+		
+		<div class="row section topspace"> 
+			<div class="col-md-12">
+				<p class="lead text-center text-muted">PersianLeague integrated with large number of ready made Joomsport and Joomla sport themes. It helps to deliver stunning design results in cost effective and professional way.</p>
+			</div>
+		</div>
+
+
+  
+<div class="row">
+  <div class="column">
+    <img src="images/joomla1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/joomla2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/joomla3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/joomla4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="images/joomla1.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="images/joomla2.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/joomla3.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/joomla4.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="images/joomla1.png" style="width:100%" onclick="currentSlide(1)" alt="PersianLeague Joomla">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/joomla2.png" style="width:100%" onclick="currentSlide(2)" alt="PersianLeague Joomla">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/joomla3.png" style="width:100%" onclick="currentSlide(3)" alt="PersianLeague Joomla">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/joomla4.png" style="width:100%" onclick="currentSlide(4)" alt="PersianLeague Joomla">
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+</main>
+    <br>
+    <footer id="underfooter">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+                    <p class="text-left">
+	
+				</div>
+			</div>
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright ©2019 | Designed By Amin | Vancouver, Canada 
+				</div>
+			</div>
+        </div>
+	
+<a href="https://www.facebook.com/PersianLeague/" class="fa fa-facebook" target="_blank"></a>
+<a href="https://twitter.com/PersianLeague" class="fa fa-twitter" target="_blank"></a>
+<a href="https://www.youtube.com/c/melodifa" class="fa fa-youtube" target="_blank"></a>
+<a href="https://www.instagram.com/aminbeit/" class="fa fa-instagram" target="_blank"></a>
+<a href="https://vimeo.com/persianleague" class="fa fa-vimeo" target="_blank"></a>
+        
+        </div>
+</footer>
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    </body>
+</html>
